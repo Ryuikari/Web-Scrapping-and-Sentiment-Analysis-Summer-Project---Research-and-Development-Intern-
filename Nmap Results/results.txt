@@ -1,0 +1,10 @@
+# Nmap 7.91 scan initiated Wed Jun 30 10:09:36 2021 as: nmap -sV -O -T4 -oA /home/david/Desktop/CovidPA/results.txt 192.168.1.160
+Nmap scan report for Galaxy-J7-V.fios-router.home (192.168.1.160)
+Host is up (0.0017s latency).
+All 1000 scanned ports on Galaxy-J7-V.fios-router.home (192.168.1.160) are filtered
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Agfa DryStar 5500 printer (98%), D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (98%), Tahoe 8216 power management system (98%), Linux 1.0.9 (98%), TRENDnet TV-IP100 webcam (97%), D-Link DIR-655 (96%), OUYA game console (96%), SiliconDust HDHomeRun 3 set top box (96%), Silicondust HDHomeRun set top box (96%), SiliconDust HDHomeRun set top box (96%)
+No exact OS matches for host (test conditions non-ideal).
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Jun 30 10:09:43 2021 -- 1 IP address (1 host up) scanned in 7.17 seconds
