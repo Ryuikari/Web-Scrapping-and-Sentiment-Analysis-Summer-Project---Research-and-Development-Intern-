@@ -1,0 +1,36 @@
+PreparedData(topic_coordinates=              x         y  topics  cluster       Freq
+topic                                                
+3      0.066564  0.141709       1        1  23.630832
+2     -0.125249 -0.014599       2        1  17.669310
+1      0.086845 -0.074178       3        1  17.530635
+5      0.068967 -0.066155       4        1  14.228744
+6     -0.081823  0.001146       5        1  11.289077
+4      0.009918  0.004036       6        1  10.579450
+0     -0.025222  0.008041       7        1   5.071952, topic_info=             Term      Freq     Total Category  logprob  loglift
+23   notification  2.000000  2.000000  Default  30.0000  30.0000
+105         alert  4.000000  4.000000  Default  29.0000  29.0000
+57          thank  3.000000  3.000000  Default  28.0000  28.0000
+14       exposure  4.000000  4.000000  Default  27.0000  27.0000
+27         search  2.000000  2.000000  Default  26.0000  26.0000
+..            ...       ...       ...      ...      ...      ...
+149          good  0.051876  1.270742   Topic7  -5.5722  -0.2170
+152          rest  0.051876  1.270742   Topic7  -5.5722  -0.2170
+154         spike  0.051876  1.270742   Topic7  -5.5722  -0.2170
+57          thank  0.051876  3.160694   Topic7  -5.5722  -1.1282
+158     necessary  0.051876  1.780665   Topic7  -5.5722  -0.5544
+
+[284 rows x 6 columns], token_table=      Topic      Freq       Term
+term                            
+103       2  0.464567       able
+103       5  0.464567       able
+98        3  0.827154     access
+104       5  0.874591   accurate
+47        3  0.827154  advantage
+...     ...       ...        ...
+122       5  0.874591       week
+11        1  0.786942       well
+138       2  0.817934       work
+46        1  0.786942     worker
+74        4  0.848436       year
+
+[212 rows x 3 columns], R=30, lambda_step=0.01, plot_opts={'xlab': 'PC1', 'ylab': 'PC2'}, topic_order=[4, 3, 2, 6, 7, 5, 1])
